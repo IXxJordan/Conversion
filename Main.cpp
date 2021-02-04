@@ -21,7 +21,7 @@ int main()
 
         Conversion c;
         result = c.ConvertDistance(dis, sUnit, nUnit);
-        cout << "Result: " << result;
+        cout << "Result: " << result << nUnit << "\n\n";
     }
     return 0;
 }
